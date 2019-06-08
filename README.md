@@ -28,6 +28,3 @@ Cd the working directory. Run with :
 ```
 ./player.py
 ```
-## License
-
-This project is licensed under the  License - see the [LICENSE.md](LICENSE.md) file for details
