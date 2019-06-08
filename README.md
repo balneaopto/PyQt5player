@@ -7,13 +7,13 @@ I’ m just a hobbyist. In this project I have experimented with :
 * managing QButtonGroup.           
 
 ### Prerequisites
-Python 3.5+
-PyQt5
-This project use mplayer as a back-end application executed in a subprocess:
+* Python 3.5+
+* PyQt5
+* This project use mplayer as a back-end application executed in a subprocess:
 ```
 sudo apt-get install mplayer
 ```
-Install python3-mutagen, in order to extract meta data form MP3s.
+* Install python3-mutagen, in order to extract meta data form MP3s.
 ```
 sudo apt-get update
 sudo apt-get install python3-mutagen
