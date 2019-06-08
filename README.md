@@ -4,7 +4,9 @@
 Browse and play your MP3s in a scroll area by cover artworks and titles. Basic controls, PLAY/PAUSE/SKIP, are provided.
 I’ m just a hobbyist. In this project I have experimented with :
 * creating widgets dinamically and adding them to a scroll area;
-* managing QButtonGroup.           
+* managing QButtonGroup.
+
+![Screenshot](screenshot.png)
 
 ### Prerequisites
 * Python 3.5+
