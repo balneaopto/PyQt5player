@@ -26,7 +26,7 @@ In config,py set relative path, relative to your home directory, of the director
 mp3dir = "/myplaylist/"
 mp3dir = "Music/myplaylist/"
 ```
-Cd the working directory. Run with :
+Cd the working directory. Make player.py executable. Run with :
 ```
 ./player.py
 ```
