@@ -313,7 +313,7 @@ class FormWidget(QtWidgets.QWidget):
 
       # Play MP3 with mplayer in subprocess
       def play(self,mediafile):
-          self.player = subprocess.Popen(["mplayer",mediafile," -ao alsa:device=hw=0.0"],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+          self.player = subprocess.Popen(["mplayer",mediafile," -ao alsa:device=hw=1.0"],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 
 app = QtWidgets.QApplication(sys.argv)
 main = MainWindow()
